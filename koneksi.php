@@ -2,7 +2,7 @@
 $host = "localhost";
 $user = "root";
 $pass = "";
-$db = "db_helpdesk";
+$db = "db_belajar";
 
 $conn = mysqli_connect($host, $user, $pass, $db);
 
