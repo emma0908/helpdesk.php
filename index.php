@@ -79,6 +79,10 @@ $ambil_data = mysqli_query($conn, "SELECT * FROM pengaduan ORDER BY id DESC");
             <a href="hapus.php?id=<?php echo $row['id']; ?>"
                onclick="return confirm('Yakin ingin menghapus laporan ini?')">
                Hapus
+
+               <a href="edit.php?id=<?php echo $row['id']; ?>"
+               onclick="return confirm('Yakin ingin mengedit laporan ini?')">
+               Edit
             </a>
         </td>
     </tr>
